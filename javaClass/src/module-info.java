@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author MALA
+ *
+ */
+module javaClass {
+}
