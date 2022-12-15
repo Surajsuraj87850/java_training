@@ -14,9 +14,11 @@ public class exception {
 			
 		}
 		try {
+			try {
 			int num = Integer.parseInt("suraj");
 			System.out.println(num);
 		}
+		
 		catch(NumberFormatException e) {
 			System.out.println("number format exception");
 		}
@@ -28,7 +30,18 @@ public class exception {
 			System.out.println("array index out of bounds");
 			
 		}
+		System.out.println("other statement");
 
 	}
-
+		catch(Exception e)
+		{
+			System.out.println("handeled ");
+		}
+		finally {
+			System.out.println("end");
+		}
+	}
 }
+	
+
+
